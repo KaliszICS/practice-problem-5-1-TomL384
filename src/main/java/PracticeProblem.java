@@ -1,27 +1,37 @@
-public class PracticeProblem {
+/******************************************************************************
 
-	public static void main(String args[]) {
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
 
+*******************************************************************************/
+public class PracticeProblem
+{
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void createIntArray() {
+		int[] arr;
+		arr = new int[5]
+		for (int v1 = 0; v1 < arr.length(); v1++){
+		    arr[v1]= v1 + 1;
+		}
+		return arr;
 	}
 
-	public static void q1() {
-		//Write question 1 code here
+	public static void createArray(String v1, String v2, String v3, String v4) {
+		return String[] arr = {v1,v2,v3,v4};
 	}
 
-	public static void q2() {
-		//Write question 2 code here
+	public static void getElement(int i1, String[] arr) {
+		return arr[i1-1];
 	}
 
-	public static void q3() {
-		//Write question 3 code here
+	public static void replaceElement(int i1, double d1, double[] arr) {
+		return arr[i1-1] = d1 ;
 	}
 
-	public static void q4() {
-		//Write question 4 code here
-	}
-
-	public static void q5() {
-		//Write question 5 code here
-	}
-
+	
 }
